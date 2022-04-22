@@ -1,0 +1,175 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+ul {
+    display: flex; /*Alinhamento horizontal*/
+     justify-content: space-between; /*espaçamento entre os itens*/
+     list-style-type: none; /*tirar as marcações da lista*/
+     align-items: center;/*alinhado verticalmente ao centro*/
+     padding: 16px; /*distancia maior entre itens de cima e de baixo*/
+ }
+ a {
+    color: white; /*cor do link a*/
+    text-decoration: none; /*tirar sublinhado*/
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /*arredondar as bordas*/
+    border: 5px solid #46a4f1;
+}
+.center {
+    text-align: center;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+div {
+    text-align: center;
+  }
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+table{
+    align-content: center;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+.btligar{
+    color: white;
+    background: rgb(144, 230, 104)55, 255, 255)55, 255, 255)55, 255, 255);
+    border: 0;
+    width: 100px;
+    height: 30px;
+}
+
+/*botao teste*/
+.botaolg {
+    background: -webkit-linear-gradient(bottom, #95f0ac, #F9F9F9 70%);
+    background: -moz-linear-gradient(bottom, #95f0ac, #F9F9F9 70%);
+    background: -o-linear-gradient(bottom, #95f0ac, #F9F9F9 70%);
+    background: -ms-linear-gradient(bottom, #95f0ac, #F9F9F9 70%);
+    background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    border: 1px solid #CCCCCE;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                  0 2px 7px rgba(0, 0, 0, 0.2);
+    color: #616165;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow:1px 1px 0 #FFF;
+    padding: 5px 15px;
+    position: relative;
+    width: 80px;
+}
+
+.botaolg:before {
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 12px -4px rgba(70, 70, 70, .2),
+                  inset 0 3px 2px -1px rgba(255, 255, 255, 1);
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    position: absolute;
+   }
+
+.botaolg:after {
+    background: rgba(255, 255, 255, .4);
+    border-radius: 2px;
+    content: "";
+    bottom: 15px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+   } 
+
+.botaodl {
+    background: -webkit-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: -moz-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: -o-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: -ms-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    border: 1px solid #CCCCCE;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                  0 2px 7px rgba(0, 0, 0, 0.2);
+    color: #616165;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow:1px 1px 0 #FFF;
+    padding: 5px 15px;
+    position: relative;
+    width: 80px;
+}
+
+.botaodl:before {
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 12px -4px rgba(70, 70, 70, .2),
+                  inset 0 3px 2px -1px rgba(255, 255, 255, 1);
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    position: absolute;
+   }
+
+   .botaodl:after {
+    background: rgba(255, 255, 255, .4);
+    border-radius: 2px;
+    content: "";
+    bottom: 15px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+   }
+   .navbar {
+    overflow: hidden;
+    background-color: red;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  .table{
+      align-items: center;
+  }
